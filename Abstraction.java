@@ -18,7 +18,7 @@ class Gpay extends Payment {
 
     Gpay(double amount, String gpayNumber){
         super(amount);
-        this.gpayNumber=gpayNumber;
+        this.gpayNumber= gpayNumber;
     }
 
     @Override
@@ -34,7 +34,7 @@ class PhonePay extends Payment {
 
     PhonePay(double amount, String phonePayNumber){
         super(amount);
-        this.phonePayNumber=phonePayNumber;
+        this.phonePayNumber= phonePayNumber;
     }
 
     @Override
